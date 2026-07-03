@@ -1,0 +1,6 @@
+{
+  "name": "Manga El Emperador de Loky",
+  "description": "Página oficial de venta para el manga 'LOKY: El Emperador'. Destaca el arte original, cuenta con sinopsis detallada, lector de manga interactivamente animado y un analizador de aura de fútbol impulsado por IA Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-imperial: "Cinzel", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-gold-50: #fbf8eb;
+  --color-gold-100: #f5eccd;
+  --color-gold-200: #ead494;
+  --color-gold-300: #ddb85a;
+  --color-gold-400: #d4a034;
+  --color-gold-500: #c5861b;
+  --color-gold-600: #ab6a14;
+  --color-gold-700: #884e12;
+  --color-gold-800: #714013;
+  --color-gold-900: #603614;
+  --color-gold-950: #381c07;
+
+  --color-orange-50: #fff5f0;
+  --color-orange-100: #ffe4e0;
+  --color-orange-200: #ffccc5;
+  --color-orange-300: #ffa190;
+  --color-orange-400: #ff6e54;
+  --color-orange-500: #ff4d00;
+  --color-orange-600: #e03200;
+  --color-orange-700: #b82200;
+  --color-orange-800: #941d04;
+  --color-orange-900: #7a1b07;
+  --color-orange-950: #440a00;
+
+  --color-dark-bg: #050505;
+  --color-dark-card: #0a0a0a;
+  --color-dark-accent: #111111;
+  --color-dark-border: rgba(255, 255, 255, 0.05);
+  --color-dark-border-strong: rgba(255, 255, 255, 0.1);
+}
+
+/* Custom manga textures and styling */
+.manga-grid {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.manga-halftone {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.45) 15%, transparent 16%);
+  background-size: 6px 6px;
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px rgba(255, 77, 0, 0.2);
+}
+
+.gold-glow-strong {
+  box-shadow: 0 0 35px rgba(255, 77, 0, 0.45);
+}
+
+.orange-glow {
+  box-shadow: 0 0 25px rgba(255, 77, 0, 0.25);
+}
+
+.orange-glow-strong {
+  box-shadow: 0 0 35px rgba(255, 77, 0, 0.5);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff4d00;
+}
+
